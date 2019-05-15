@@ -25,7 +25,7 @@ See [codox_build_readfirst.md](codox_build_readfirst.md)
 
 # Codox Reduced
 
-TODO: screenshot from the QMK configurator
+![Keylayout](Codox_Reduced/codox_reduced_layout.png)
 
 Codox Reduced is a keyboard layout for the [Redox Keyboard](https://github.com/mattdibi/redox-keyboard), which maintains as much of the functionality of the full Codox and a something that you can actually use; in fact I'm using it right now.
 
