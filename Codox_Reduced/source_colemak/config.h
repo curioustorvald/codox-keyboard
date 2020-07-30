@@ -33,5 +33,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 
-#define TAPPING_TERM 144
 #define SPLIT_USB_DETECT
+
+// more tidbits for fast typist
+#define TAPPING_TERM 144
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define RETRO_TAPPING
