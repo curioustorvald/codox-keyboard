@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 
-
 enum custom_keycodes {
     MACRO_F3_G
 };

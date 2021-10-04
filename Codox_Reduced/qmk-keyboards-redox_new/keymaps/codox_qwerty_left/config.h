@@ -1,4 +1,6 @@
 /*
+ * LEFT
+ *
 Copyright 2018 Mattia Dal Ben <matthewdibi@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
@@ -22,9 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define USE_I2C
 
 /* Select hand configuration */
-// #define MASTER_LEFT
+#define MASTER_LEFT
 // #define MASTER_RIGHT
-#define EE_HANDS
+// #define EE_HANDS
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -33,15 +35,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 
-#define SPLIT_USB_DETECT
+// #define SPLIT_USB_DETECT
 
 // more tidbits for fast typist
 #define TAPPING_TERM 144
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
 #define RETRO_TAPPING
-
-#ifdef DEBOUNCE
-#undef DEBOUNCE
-#endif
-#define DEBOUNCE 8
